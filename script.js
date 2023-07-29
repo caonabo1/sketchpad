@@ -46,8 +46,8 @@ function createGrid(size) {
     const gap = 2 * (size - 1);
     for (let i = 0; i < (size * size); i++) {
         const div = document.createElement('div');
-        div.style.width = ((785 - gap) / size) + 'px';
-        div.style.height = ((785 - gap) / size) + 'px';
+        div.style.width = ((784 - gap) / size) + 'px';
+        div.style.height = ((784 - gap) / size) + 'px';
         container.appendChild(div);
     }
 }
